@@ -61,6 +61,8 @@ namespace Monogame_1___Assignment
             _spriteBatch.Begin();
 
             _spriteBatch.Draw(backgroundTexture, new Vector2(0, 0), Color.White);
+            _spriteBatch.Draw(ishmaelTexture, new Vector2(200, 350), Color.White);
+            _spriteBatch.Draw(ahabTexture, new Vector2(500, 350), Color.White);
 
             _spriteBatch.End();
             // TODO: Add your drawing code here
