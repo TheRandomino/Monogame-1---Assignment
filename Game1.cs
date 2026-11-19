@@ -12,6 +12,8 @@ namespace Monogame_1___Assignment
         Texture2D backgroundTexture;
         Texture2D ishmaelTexture;
         Texture2D ahabTexture;
+        Texture2D starbuckTexture;
+        Texture2D queequegTexture;
 
         public Game1()
         {
@@ -39,6 +41,8 @@ namespace Monogame_1___Assignment
             ishmaelTexture = Content.Load<Texture2D>("ishmaelIdle");
             ahabTexture = Content.Load<Texture2D>("ahabIdle");
             backgroundTexture = Content.Load<Texture2D>("pallidWhaleHeart");
+            starbuckTexture = Content.Load<Texture2D>("starbuckIdle");
+            queequegTexture = Content.Load<Texture2D>("queequegIdle");
             // TODO: use this.Content to load your game content here
 
 
@@ -63,6 +67,9 @@ namespace Monogame_1___Assignment
             _spriteBatch.Draw(backgroundTexture, new Vector2(0, 0), Color.White);
             _spriteBatch.Draw(ishmaelTexture, new Vector2(200, 350), Color.White);
             _spriteBatch.Draw(ahabTexture, new Vector2(500, 350), Color.White);
+            _spriteBatch.Draw(starbuckTexture, new Vector2(525, 300), Color.White);
+            _spriteBatch.Draw(queequegTexture, new Vector2(600, 350), Color.White);
+
 
             _spriteBatch.End();
             // TODO: Add your drawing code here
